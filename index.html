@@ -74,6 +74,32 @@
                 z-index: 5;
                 top: unset !important;
             }
+            @media (max-width: 767px) {
+                .form-check {
+                    min-height: 32px;
+                }
+            }
+
+            @media (min-width: 992px) {
+                .col-xl-7 {
+                    -ms-flex: 0 0 58.333333%;
+                    flex: 0 0 58.333333%;
+                    max-width: 58.333333%;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .card-body-with-background {
+                    background-image: url('img/dialup.gif');
+                    background-size: auto;
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-position-x: 15px;
+                    background-position-y: 15px;
+                    padding-left: 160px;
+                    min-height: 260px;
+                }
+            }
         </style>
     </head>
 
@@ -111,14 +137,30 @@
                             <div class="card-header text-center">
                                 <span>Zolw R&D</span>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body card-body-with-background">
                                 <p class="card-text">Boost you business with Zolw R&D!:
                                 <div class="form-check">
                                     <label class="form-check-label">
                                         <input class="form-check-input" type="checkbox" checked>
                                         <span class="form-check-x"></span>
                                         <span class="form-check-sign"></span>
-                                        Artificial intelligence / Machine Learning / Research & Development
+                                        Artificial Intelligence / Machine Learning
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" checked>
+                                        <span class="form-check-x"></span>
+                                        <span class="form-check-sign"></span>
+                                        Large Language Models / Retrieval Augmented Generation
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" checked>
+                                        <span class="form-check-x"></span>
+                                        <span class="form-check-sign"></span>
+                                        DevOps / SysAdmin / IT Security
                                     </label>
                                 </div>
                                 <div class="form-check">
@@ -134,7 +176,7 @@
                                         <input class="form-check-input" type="checkbox" checked>
                                         <span class="form-check-x"></span>
                                         <span class="form-check-sign"></span>
-                                        Project / Product / IT Management
+                                        Project Management / Product Development / IT Management
                                     </label>
                                 </div>
                                 <div class="form-check">
@@ -142,13 +184,23 @@
                                         <input class="form-check-input" type="checkbox" checked>
                                         <span class="form-check-x"></span>
                                         <span class="form-check-sign"></span>
-                                        DevOps / SysAdmin / Security
+                                        EU Funds / Research Grants
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" checked>
+                                        <span class="form-check-x"></span>
+                                        <span class="form-check-sign"></span>
+                                        Research & Development / IT Consulting
                                     </label>
                                 </div>
 
                                 </p>
+                            </div>
+                            <div class="card-body">
                                 <div class="text-center">
-                                    <a href="mailto:contact@zolw.dev" class="btn btn-sm mr-2 btn-primary border-dark" role="button"><span class="btn-text">🐢️ Profit!</span></a>
+                                    <a href="mailto:contact@zolw.dev" class="btn btn-sm mr-2 btn-primary border-dark" role="button"><span class="btn-text">🐢️ Connect</span></a>
                                 </div>
                             </div>
                         </div>
